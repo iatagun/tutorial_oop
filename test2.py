@@ -56,4 +56,6 @@ print(p1 <= p2) # this will call the __le__ method and return False because the 
 print(p1 == p2) # this will call the __eq__ method and return False because the coordinates of p1 and p2 are not the same
 print(p1 == Point(3,4)) # this will call the __eq__ method and return True because the coordinates of p1 and the new Point(3,4) are the same
 
+# Dunder methotları gizlice tetiklenir ve genellikle doğrudan çağrılmazlar.
+# Doğrudan Python'un dil yapısına (sözdizimine) gömülüdür.
 
